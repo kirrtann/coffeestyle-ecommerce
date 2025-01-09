@@ -40,7 +40,7 @@ const Blog = () => {
                         date="October 9, 2018"
                     />
                 </div>
-                <div className='max-w-[940] mx-auto lg:flex '>
+                <div className='max-w-[940px] mx-auto lg:flex '>
                     <div className='max-w-[600px]  mr-[40px] ' >
                         <h2 className='text-[22px]  border-b pb-10 mb-[50px] '>Letest Posts</h2>
 
@@ -95,7 +95,7 @@ const Blog = () => {
                     <div className='max-w-[300px]'>
                         <h2 className='text-[22px]  border-b pb-10'>About US</h2>
                         <div className='mt-[25px] leading-7 mb-[30px]'>
-                            <Image src="loga.png" alt="logo" className='w-[112px] mb-[15px] ' />
+                            <Image src="/loga.png" alt="logo" className='w-[112px]  mb-[15px] ' width={112} height={50} />
                             <p className='text-[16px] opacity-55 mb-[15px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                             <a className='border-b pb-2 text-[16px] border-[#a25f4b] opacity-80 hover:opacity-100 text-[#a25f4b]'>Read the full Story </a>
                         </div>

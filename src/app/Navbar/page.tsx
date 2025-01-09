@@ -58,12 +58,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="hover:text-black">
+              <Link href="contact" className="hover:text-black">
                 CONTACT
               </Link>
             </li>
             <li>
-              <Link href="#styleguide" className="hover:text-black">
+              <Link href="styleguide" className="hover:text-black">
                 STYLEGUIDE
               </Link>
             </li>
@@ -108,7 +108,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#blog"
+                  href="blog"
                   className="hover:text-black"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -117,7 +117,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#about"
+                  href="about"
                   className="hover:text-black"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -126,7 +126,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#contact"
+                  href="contact"
                   className="hover:text-black"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -135,7 +135,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#styleguide"
+                  href="styleguide"
                   className="hover:text-black"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >

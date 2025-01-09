@@ -3,6 +3,7 @@ import React from 'react'
 import CommonCard from '../common/card';
 import CafeDetail from '../common/cafe';
 import Subscribe from '../common/subcribeplan';
+import Footer from '../footer/page';
 
 const Main = () => {
   return (
@@ -164,6 +165,7 @@ const Main = () => {
               
           </div>
           <Subscribe />
+          <Footer/>
         </div>
       </div>
 
