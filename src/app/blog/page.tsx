@@ -3,6 +3,7 @@ import CafeDetail from '../common/cafe'
 import VarticalCrad from '../common/varticalcard'
 import SmallCard from '../common/smallcard'
 import Subscribe from '../common/subcribeplan'
+import Image from 'next/image'
 
 const Blog = () => {
     return (
@@ -94,7 +95,7 @@ const Blog = () => {
                     <div className='max-w-[300px]'>
                         <h2 className='text-[22px]  border-b pb-10'>About US</h2>
                         <div className='mt-[25px] leading-7 mb-[30px]'>
-                            <img src="loga.png" alt="logo" className='w-[112px] mb-[15px] ' />
+                            <Image src="loga.png" alt="logo" className='w-[112px] mb-[15px] ' />
                             <p className='text-[16px] opacity-55 mb-[15px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                             <a className='border-b pb-2 text-[16px] border-[#a25f4b] opacity-80 hover:opacity-100 text-[#a25f4b]'>Read the full Story </a>
                         </div>
@@ -148,7 +149,7 @@ const Blog = () => {
                 </div>
                 <div className='border-b border-l text-[20px] max-w-[940px] mx-auto p-[30px] text-[#a25f4b] border-[#a25f4b] mb-[30px]' >
 
-                    "I wake up some mornings and sit and have my coffee and look out at my beautiful garden, and I go, ’Remember how good this is. Because you can lose it."
+                    I wake up some mornings and sit and have my coffee and look out at my beautiful garden, and I go, ’Remember how good this is. Because you can lose it.
                 </div>
                 <div className='mb-[130px]'>
                     <p className='text-[12px] font-bold tracking-[2px] text-center opacity-30'>Jason Johnson - Owner of CoffeeStyle</p>

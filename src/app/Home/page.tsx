@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import React from 'react'
 import CommonCard from '../common/page';
 import CafeDetail from '../common/cafe';

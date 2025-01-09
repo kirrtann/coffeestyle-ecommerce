@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from 'next/link'
 import React, { useState } from 'react'
 
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="container mx-auto flex items-center justify-between py-6 px-4 sm:px-6 md:px-8 font-karla">
 
           <div>
-            <img src="loga.png" alt="logo" className='w-[112px]' />
+            <Image src="/loga.png" alt="logo" width={112} height={50} className='w-[112px]' />
           </div>
 
           <button
@@ -72,7 +72,7 @@ const Navbar = () => {
           <button className="text-gray-500 flex hover:text-gray-800">
             <div className='flex text-[12px] py-1 gap-3'>
               <div className=''>
-                <img src="https://cdn.prod.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a3450ecdfb5_Cart%20Icon.png" className='w-4  ' alt="" />
+                <Image src="https://cdn.prod.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a3450ecdfb5_Cart%20Icon.png" className='w-4  ' width={4} height={4} alt="" />
               </div>
               <div className=''>
                 CARD
