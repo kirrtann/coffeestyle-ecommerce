@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-interface CommonCardProps {
+interface Propss {
   imageurl: string;
   width: string;
   height: string;
@@ -9,7 +9,7 @@ interface CommonCardProps {
   price: number;
 }
 
-const CommonCard: React.FC<CommonCardProps> = ({ imageurl, width, height, Name, price }) => {
+const CommonCard: React.FC<Propss> = ({ imageurl, width, height, Name, price }) => {
   const backgroundStyle = {
     backgroundImage: `url(${imageurl})`,
     backgroundSize: 'cover',

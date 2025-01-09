@@ -1,6 +1,6 @@
 
 import React from 'react'
-import CommonCard from '../common/page';
+import CommonCard from '../common/card';
 import CafeDetail from '../common/cafe';
 import Subscribe from '../common/subcribeplan';
 

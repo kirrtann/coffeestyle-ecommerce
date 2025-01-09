@@ -11,7 +11,6 @@ const About = () => {
                             <p className=' mb-[15px] text-[18px] opacity-65'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
                         </div>
                     </div>
-
                 </div>
                 <div className='max-w-[940px] mx-auto top-[-100] relative '>
                     <div className='bg-[url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a780eecdfcc_About-Cover.jpg")] bg-cover mb-[100px] h-[320px] w-full '>
