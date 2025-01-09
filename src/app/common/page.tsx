@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 interface CommonCardProps {
@@ -24,11 +25,11 @@ const CommonCard = ({ imageurl, width, height, Name, price }: CommonCardProps) =
         <div className="relative  "
           style={backgroundStyle}
         >
-          <a href="/" className=" absolute w-full h-full opacity-0 z-10 transition-opacity duration-300 hover:opacity-100 ">
+          <Link href="/" className=" absolute w-full h-full opacity-0 z-10 transition-opacity duration-300 hover:opacity-100 ">
             <button className='uppercase bg-white  absolute bottom-5 tracking-[2px] w-[80%] text-[12px] font-bold py-4 px-2 ml-10 mt-10 text-black '>
               expolre mug
             </button>
-          </a>
+          </Link>
         </div>
         <div className='mt-8 text-center'>
           <h3 className='text-[#1d1f2e] text-[20px] mb-[5px] mt-[10px]  '>  {Name} </h3>

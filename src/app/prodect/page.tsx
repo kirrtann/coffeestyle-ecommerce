@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../Navbar/page'
 import CommonCard from '../common/page'
 import Subscribe from '../common/subcribeplan'
+import Link from 'next/link'
 
 const Prodect = () => {
     return (
@@ -13,11 +13,11 @@ const Prodect = () => {
                 </div>
 
                 <div className='uppercase text-center  mb-[100px]  max-w-[940px] '>
-                    <a href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >all products</a>
-                    <a href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >coffee mug</a>
-                    <a href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >others</a>
-                    <a href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >premium</a>
-                    <a href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >tea mugs</a>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >all products</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >coffee mug</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >others</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >premium</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >teLink mugs</Link>
                 </div>
 
                 <div className='flex flex-wrap gap-4 max-w-[940px] '>
