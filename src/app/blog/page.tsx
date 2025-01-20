@@ -4,6 +4,7 @@ import VarticalCrad from '../common/varticalcard'
 import SmallCard from '../common/smallcard'
 import Subscribe from '../common/subcribeplan'
 import Image from 'next/image'
+import Footer from '../footer/page'
 
 const Blog = () => {
     return (
@@ -156,6 +157,7 @@ const Blog = () => {
                 </div>
                 <div>
                     <Subscribe/>
+                    <Footer/>
                 </div>
             </div>
         </div>

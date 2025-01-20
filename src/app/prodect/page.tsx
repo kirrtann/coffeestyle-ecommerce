@@ -2,6 +2,7 @@ import React from 'react'
 import CommonCard from '../common/card'
 import Subscribe from '../common/subcribeplan'
 import Link from 'next/link'
+import Footer from '../footer/page'
 
 const Prodect = () => {
     return (
@@ -12,15 +13,15 @@ const Prodect = () => {
                     <p className='text-[18px] opacity-55 tracking-[1px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
 
-                <div className='uppercase text-center  mb-[100px]  max-w-[940px] '>
-                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >all products</Link>
-                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >coffee mug</Link>
-                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >others</Link>
-                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >premium</Link>
-                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >teLink mugs</Link>
+                <div className='uppercase text-center  mb-[100px] mx-auto justify-center md:flex grid gap-y-2  max-w-[940px] '>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] w-full  text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >all products</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] w-full text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >coffee mug</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] w-full text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >others</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] w-full text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >premium</Link>
+                    <Link href="" className='border border-[#ececed] py-[10px] px-[16px] w-full text-[12px] tracking-[2px] mr-[5px] font-bold text-[#a25f4b] ' >teLink mugs</Link>
                 </div>
 
-                <div className='flex flex-wrap gap-4 max-w-[940px] '>
+                <div className='flex flex-wrap justify-center gap-4 max-w-[940px] '>
                     <CommonCard
                         imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash.jpg'
                         width='300px'
@@ -116,6 +117,7 @@ const Prodect = () => {
             </div>
             <div>
                 <Subscribe />
+                <Footer/>
             </div>
         </>
     )

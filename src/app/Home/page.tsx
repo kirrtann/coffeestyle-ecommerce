@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <>
       <div>
-        <div className="font-karla">
+        <div className="font-karla mx-1 ">
           <div className=' mb-[100px] '>
             <div className='max-w-[1440px] mx-auto'>
               <div className=' bg-[#050827] relative h-[530px] w-full '>
@@ -132,40 +132,36 @@ const Main = () => {
             Behind the mugs, lifestyle stories
           </div>
           <div className='flex gap-5 flex-wrap max-w-[940px]  mx-auto'>
-            
-              <CafeDetail
-                classname='max-w-[300px]'
-                imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg'
-                width='300px'
-                height='400px'
-                Name='Recent research suggests that heavy coffee drinkers may reap health benefits.'
-                deteail="It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                date="October 9, 2018"
-              />
-              <CafeDetail
-                classname='max-w-[300px]'
-                imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg'
-                width='300px'
-                height='400px'
-                Name='Health Check: why do I get a headache when I haven’t had my coffee?'
-                deteail="It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem."
-                date="October 9, 2018"
-              />
-              
-    
-              <CafeDetail
-                classname='max-w-[300px]'
-                imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg'
-                width='300px'
-                height='400px'
-                Name='How long does a cup of coffee keep you awake?'
-                deteail="It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                date="October 9, 2018"
-              />
-              
+            <CafeDetail
+              classname='max-w-[300px]'
+              imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg'
+              width='300px'
+              height='400px'
+              Name='Recent research suggests that heavy coffee drinkers may reap health benefits.'
+              deteail="It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+              date="October 9, 2018"
+            />
+            <CafeDetail
+              classname='max-w-[300px]'
+              imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg'
+              width='300px'
+              height='400px'
+              Name='Health Check: why do I get a headache when I haven’t had my coffee?'
+              deteail="It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem."
+              date="October 9, 2018"
+            />
+            <CafeDetail
+              classname='max-w-[300px]'
+              imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg'
+              width='300px'
+              height='400px'
+              Name='How long does a cup of coffee keep you awake?'
+              deteail="It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+              date="October 9, 2018"
+            />
           </div>
           <Subscribe />
-          <Footer/>
+          <Footer />
         </div>
       </div>
 

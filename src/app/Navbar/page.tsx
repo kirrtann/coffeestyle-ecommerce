@@ -74,10 +74,10 @@ const Navbar = () => {
               <div className=''>
                 <Image src="https://cdn.prod.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a3450ecdfb5_Cart%20Icon.png" className='w-4  ' width={4} height={4} alt="" />
               </div>
-              <div className=''>
-                CARD
+              <div className=' text-[11px] tracking-[2px] place-content-center font-bold'>
+                CART
 
-              </div><div className='bg-gray-500 text-white rounded-full h-fit px-2 py-1  text-[11px]'>
+              </div><div className='bg-gray-500 text-white rounded-full h-fit px-[6px]   text-[11px]'>
                 0
               </div>
 

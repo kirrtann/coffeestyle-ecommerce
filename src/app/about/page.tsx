@@ -1,6 +1,8 @@
 import React from 'react'
 import Introductions from '../common/intro'
 import Historycard from '../common/history'
+import Subscribe from '../common/subcribeplan'
+import Footer from '../footer/page'
 
 const About = () => {
     return (
@@ -32,7 +34,7 @@ const About = () => {
                         <div className='bg-[url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7af7e3ecdfad_About%20Image%201.jpg")] w-full bg-cover h-full  min-h-[360px] '>
                         </div>
                     </div>
-                    <div className='lg:grid flex grid-cols-2 items-center mb-[130px] gap-[20px]'>
+                    <div className='lg:grid  grid-cols-2 items-center mb-[130px] gap-[20px]'>
                         <div className='justify-center  pr-[60px] '>
                             <h3 className='text-[24px] mt-[10px] mb-[35px]'>Overlaid the jeepers uselessly much excluding everyday life.</h3>
                             <p className='text-[16px] opacity-65 leading-7 mb-[15px]'>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -68,9 +70,22 @@ const About = () => {
                     <div className='text-[12px] opacity-65 uppercase tracking-[2px] mb-[100px] font-bold text-center '>
                         History Timeline
                     </div>
-                    <Historycard/>  
+                    <Historycard
+                        date="October 2018"
+                        p1="One day however a small line"
+                        p2="It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum"
+                    />
+                    <Historycard
+                        date='August 2018'
+                        p1='Overlaid the jeepers uselessly'
+                        p2='It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum.' />
+                    <Historycard
+                        date='November 2017'
+                        p1="We've started CoffeeStyle."
+                        p2='' />
                 </div>
-
+                <Subscribe />
+                <Footer/>
             </div>
         </>
     )
