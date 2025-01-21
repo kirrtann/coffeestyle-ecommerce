@@ -3,7 +3,7 @@ import React from 'react'
 const Subscribe = () => {
   return (
    <>
-    <div className='max-w-[1440px] mt-[100px] py-[80px] px-[100px] mb-[100px] text-white bg-[#1D1F2E] mx-auto ' >
+    <div className='max-w-[1440px] mt-[100px] py-[80px] px-[100px] mb-[100px] fade-element text-white bg-[#1D1F2E] mx-auto ' >
             <div className='max-w-[940px] items-center text-center mx-auto justify-center'>
               <p className=' opacity-50 font-bold text-[12px] uppercase tracking-[2px] mb-[10px]'>
                 Sign up and get free coffee bags

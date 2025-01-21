@@ -1,8 +1,29 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import Subscribe from '../common/subcribeplan'
 import Footer from '../footer/page'
 
 const Contact = () => {
+     useEffect(() => {
+        const fadeElements = document.querySelectorAll('.fade-element');
+    
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate-fadeInTransform');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+        });
+    
+        fadeElements.forEach(element => observer.observe(element));
+    
+        return () => {
+          fadeElements.forEach(element => observer.unobserve(element));
+        };
+      }, []);
     return (
         <>
             <div>
@@ -53,7 +74,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='max-w-[940px] mx-auto p-[20px] md:p-[60px] flex border flex-wrap justify-center '>
+                <div className='max-w-[940px] mx-auto p-[20px] fade-element  md:p-[60px] flex border flex-wrap justify-center '>
                     <div className='md:w-[60%] md:border-r border-b pb-[10px]  md:pr-[60px] md:mr-[60px] '>
                         <p className='text-[12px] opacity-60 font-bold tracking-[2px] uppercase mb-[10px]'>  Contact form </p>
                         <p className='text-[18px] mb-[25px]'> Drop us your message and I'll get back to you as soon as possible.</p>
@@ -86,7 +107,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='max-w-[940px] mx-auto mt-[100px]  text-center'>
+                <div className='max-w-[940px] mx-auto mt-[100px] fade-element text-center'>
                     <div className='text-[12px] opacity-60 font-bold tracking-[2px] mb-[100px] uppercase'>
                         Directory
                     </div>

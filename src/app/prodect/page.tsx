@@ -1,10 +1,31 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import CommonCard from '../common/card'
 import Subscribe from '../common/subcribeplan'
 import Link from 'next/link'
 import Footer from '../footer/page'
 
 const Prodect = () => {
+    useEffect(() => {
+        const fadeElements = document.querySelectorAll('.fade-element');
+    
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate-fadeInTransform');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+        });
+    
+        fadeElements.forEach(element => observer.observe(element));
+    
+        return () => {
+          fadeElements.forEach(element => observer.unobserve(element));
+        };
+      }, []);
     return (
         <>
             <div className='max-w-[940px] mx-auto mt-[100px]'>

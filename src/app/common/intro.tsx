@@ -21,7 +21,7 @@ const Introductions = ({ imageurl, Name, width, height, position }: CommonCardPr
     }
     return (
         <>
-            <div className='px-[5px] text-center '>
+            <div className='px-[5px] text-center fade-element '>
                 <div style={backgroundstle} className='mb-[25px]' >
                 </div>
                 <div className=''>

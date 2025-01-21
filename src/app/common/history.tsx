@@ -7,7 +7,7 @@ interface historytype {
 const Historycard = ({ date, p1, p2 }: historytype) => {
   return (
     <>
-      <div className='max-w-[940px]  mx-auto text-center mb-[100px] '>
+      <div className='max-w-[940px]  mx-auto text-center mb-[100px] fade-element '>
         <div className='w-[60%] mx-auto'>
           <div className='text-[12px] opacity-60 tracking-[2px] uppercase font-bold mb-[10px] '>
             {date}

@@ -20,7 +20,7 @@ const CommonCard: React.FC<Propss> = ({ imageurl, width, height, Name, price }) 
 
   return (
     <div>
-      <div className="relative max-w-[460px] " style={backgroundStyle}>
+      <div className="relative max-w-[460px] fade-element fade-element" style={backgroundStyle}>
         <Link
           href="/prodect/productdetail"
           className="absolute w-full h-full opacity-0 z-10 transition-opacity duration-300 hover:opacity-100"
