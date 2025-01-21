@@ -22,7 +22,7 @@ const CommonCard: React.FC<Propss> = ({ imageurl, width, height, Name, price }) 
     <div>
       <div className="relative max-w-[460px] " style={backgroundStyle}>
         <Link
-          href="/"
+          href="/prodect/productdetail"
           className="absolute w-full h-full opacity-0 z-10 transition-opacity duration-300 hover:opacity-100"
         >
           <button className="uppercase bg-white absolute bottom-5 tracking-[2px] w-[80%] text-[12px] font-bold py-4 px-2 ml-10 mt-10 text-black">

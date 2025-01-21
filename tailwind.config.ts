@@ -17,5 +17,11 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [function ({ addUtilities }:any) {
+    addUtilities({
+      '.will-change-opacity-transform': {
+        willChange: 'opacity, transform',
+      },
+    }, ['responsive', 'hover', 'focus']);
+  },],
 } satisfies Config;

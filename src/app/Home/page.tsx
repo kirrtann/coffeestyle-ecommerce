@@ -16,7 +16,7 @@ const Main = () => {
                 <div className=' bg-[url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg")] mx-auto max-w-[940px] bg-cover bg-bottom h-[530px]  ' >
                   <div className='mx-auto text-center relative sm:top-[30%] w-[85%] top-[15%]  text-white'>
                     <p className='uppercase text-[12px] tracking-[2px] opacity-80 ' >Best place to buy  design </p>
-                    <h1 className='sm:text-[48px] text-[34px] my-[10px] '>Coffee Mugs</h1>
+                    <h1 className='sm:text-[48px] text-[34px] my-[10px]  tracking-[2px] '>Coffee Mugs</h1>
                     <p className='text-[18px] mb-[30px] opacity-90'>The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</p>
                     <button className='text-[12px] tracking-[2px] uppercase   bg-white text-black px-[24px] py-[18px] font-bold  '>Explore our products</button>
                   </div>
@@ -126,7 +126,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className='bg-[url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg")] bg-fixed mb-[100px] mt-[100px] lg:bg-cover bg-contain bg-no-repeat h-[200px] sm:h-[380px] '>
+          <div className='bg-[url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg")] bg-center bg-fixed mb-[100px] mt-[100px] lg:bg-cover bg-contain bg-no-repeat h-[200px] sm:h-[380px] '>
           </div>
           <div className='text-center opacity-50 font-bold text-[12px] uppercase tracking-[2px] mb-[100px] '>
             Behind the mugs, lifestyle stories
@@ -136,7 +136,7 @@ const Main = () => {
               classname='max-w-[300px]'
               imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg'
               width='300px'
-              height='400px'
+              height='300px'
               Name='Recent research suggests that heavy coffee drinkers may reap health benefits.'
               deteail="It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
               date="October 9, 2018"
@@ -145,7 +145,7 @@ const Main = () => {
               classname='max-w-[300px]'
               imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg'
               width='300px'
-              height='400px'
+              height='300px'
               Name='Health Check: why do I get a headache when I haven’t had my coffee?'
               deteail="It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem."
               date="October 9, 2018"
@@ -154,7 +154,7 @@ const Main = () => {
               classname='max-w-[300px]'
               imageurl='https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg'
               width='300px'
-              height='400px'
+              height='300px'
               Name='How long does a cup of coffee keep you awake?'
               deteail="It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
               date="October 9, 2018"
